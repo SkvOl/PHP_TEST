@@ -13,7 +13,7 @@
 <body>
     <div class="container mt-4">
         <?php
-        echo "gg<br>";
+        echo "gg<br>777";
         $CountOfDay = cal_days_in_month(CAL_GREGORIAN, date("m"), date("Y"));
 
         $beginMonth = mktime(0, 0, 0, date("m"), 1, date("Y"));
